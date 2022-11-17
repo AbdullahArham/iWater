@@ -1,0 +1,90 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    border: none;
+    backdrop-filter: blur(10px);
+    
+    width: 100%;
+    margin-top: -10px;
+    margin-left: -8px;
+    background-color: rgb(15, 15, 15);
+    text-align: center;
+    z-index: 1;
+    
+}
+
+.navbar img {
+    width: 100%;
+}
+
+.apple-logo {
+    width: 40px;
+    position: relative;
+    top: 6px;
+    left: 10px;
+}
+
+.product-name {
+    text-align: center;
+    font-size: 22px;
+    margin-top: -5px;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 30px 30px;
+    column-gap: 6px;
+}
+
+.product-name img {
+    position: relative;
+    top: 16px;
+}
+
+.product-name p {
+    color: rgb(240, 240, 240);
+    transition: color 0.15s;
+}
+
+.product-name p:hover {
+    color: white;
+}
+
+.right-side {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-right: 26px;
+}
+
+.right-side p {
+    margin-right: 16px;
+    font-size: 15px;
+    cursor: pointer;
+    color: rgb(210, 210, 210);
+    position: relative;
+    top: 5px;
+    transition: color 0.15s;
+}
+
+.right-side p:hover {
+    color: white;
+}
+
+.buy-button {
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(25, 116, 207);
+    color: white;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+    margin-top: 13px;
+    transition: background-color 0.15s;
+}
+
+.buy-button:hover {
+    background-color: rgb(21, 124, 227);
+}
+
+.buy-button:active {
+    opacity: 0.8;
+}

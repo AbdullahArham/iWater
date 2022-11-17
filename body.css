@@ -1,0 +1,130 @@
+.block {
+    border: none;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block1 {
+    background-color: black;
+}
+
+.apple-text {
+    text-align: center;
+    color: rgb(144, 24, 209);
+    font-size: 60px;
+}
+
+.apple-hr {
+    border-color: rgba(255, 255, 255, 0.499);
+}
+
+.scroll {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.apple-logo {
+    position: relative;
+    display: inline-block;
+}
+
+.not-apple {
+    color: white;
+    position: absolute;
+    border: solid white 1px;
+    text-align: center;
+    width: 100px;
+    display: inline-block;
+    border-radius: 2px;
+    background-color: rgb(50, 50, 50);
+    cursor: pointer;
+    left: 5px;
+    bottom: -23px;
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+
+.apple-logo:hover 
+    .not-apple {
+        opacity: 1;
+    }
+
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}
+
+.img1{
+    background-image: url('images/more-iwater-text.png'), linear-gradient(rgb(20,20,20) 70%,rgb(144, 24, 209));
+    background-size: contain;
+    background-color: rgb(20, 20, 20);
+    margin-top: 20px;
+}
+
+.spec-sheet {
+    background-color: none;
+    width: 50%;
+    align-self: center;
+    background: transparent;
+}
+
+.price-intro {
+    background-color: black;
+    height: 500px;
+}
+
+.price {
+    text-align: center;
+    color: white;
+}
+
+.h1-two {
+    font-size: 80px;
+}
+
+.iwater-man {
+    background-image: url(images/iwater-man.png);
+}
+
+.one-more-thing {
+    background-image: url(images/one-more-thing.png);
+}
+
+.apple-text-blue {
+    text-align: center;
+    color: rgb(24, 86, 209);
+    font-size: 60px;
+}
+
+.icup-intro {
+    background-image: url(images/icup-text.png), linear-gradient(rgb(20, 20, 20) 60%, rgb(24, 86, 209));
+    background-size: contain;
+}
+
+.more-icup {
+    background-image: url(images/more-icup.png), linear-gradient(rgb(20, 20, 20) 70%, rgb(24, 86, 209));
+    background-size: contain;
+}
+
+.big-man {
+    background-image: url(images/man.png);
+}
+
+.iwater-icup {
+    background-image: url(images/iwater-icup.png), linear-gradient(rgb(20,20,20) 75%,rgb(144, 24, 209),rgb(24, 86, 209));
+}
+
+.pro-stuff {
+    background-image: url(images/pro-stuff.png), linear-gradient(rgb(20,20,20) 75%,rgb(144, 24, 209),rgb(24, 86, 209));
+}
+
+.pro-max {
+    background-image: url(images/pro-max.png), linear-gradient(rgb(20,20,20) 75%,rgb(144, 24, 209),rgb(24, 86, 209));
+}
